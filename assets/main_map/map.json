@@ -1,0 +1,336 @@
+{
+  "version": "1.0.0",
+  "name": "Untitled Map",
+  "exportDate": "2026-11-03T20:40:12.451147Z",
+  "engine": "pixellab-map-editor",
+  "mapConfig": {
+    "tileSize": 16,
+    "dimensions": {
+      "width": 90,
+      "height": 70,
+      "pixelWidth": 1440,
+      "pixelHeight": 1120
+    },
+    "boundingBox": {
+      "maxX": 83,
+      "maxY": 51,
+      "minX": -6,
+      "minY": -18
+    }
+  },
+  "terrains": [
+    {
+      "id": 2,
+      "name": "lush grassy field exhibiting varied green blades and moderate surface texture with gentle soft highlights and shadows",
+      "color": "#22c55e",
+      "baseTileId": "770614e1-e68f-494d-b4c3-6368a28371c5",
+      "walkable": null
+    },
+    {
+      "id": 9,
+      "name": "shimmering wavy water surface with gentle ripples and deep blue-green reflections featuring soft highlights and shadows",
+      "color": "#2563eb",
+      "baseTileId": "95229989-7e0f-46e6-9887-3a4f32bb32ed",
+      "walkable": null
+    },
+    {
+      "id": 11,
+      "name": "weathered gray concrete surface featuring moderate aggregate grain, fine hairline cracks, and soft surface gradients",
+      "color": "#9ca3af",
+      "baseTileId": "32d4a35a-4657-4de4-bc23-73ce936828a4",
+      "walkable": null
+    },
+    {
+      "id": 15,
+      "name": "heavily fractured dark grey soil with dense micro-aggregates, deep damp crevices, and soft natural highlights and shadows",
+      "color": "#bfdbfe",
+      "baseTileId": "356c1285-d65e-40be-8ecd-2fc1a107cabf",
+      "walkable": null
+    },
+    {
+      "id": 12,
+      "name": "brownish orange packed soil with moderate granular texture and gentle soft highlights and shadows",
+      "color": "#9ca3af",
+      "baseTileId": "39f866c1-1ed2-4a31-b4b5-57f8282af5f2",
+      "walkable": null
+    },
+    {
+      "id": 5,
+      "name": "packed winter snow with moderate granular texture and gentle soft highlights and shadows",
+      "color": "#e5e7eb",
+      "baseTileId": "dfae5bb9-aed6-4f00-a836-25cbf677bdee",
+      "walkable": null
+    },
+    {
+      "id": 4,
+      "name": "dark blue asphalt road with moderate aggregate grain, soft ambient highlights, and gentle surface shadows",
+      "color": "#9ca3af",
+      "baseTileId": "8eda802c-ce1d-4276-a9ba-a274630f288a",
+      "walkable": null
+    },
+    {
+      "id": 8,
+      "name": "textured beach sand with gentle surface ripples and moderate tonal variation featuring soft highlights and shadows",
+      "color": "#fbbf24",
+      "baseTileId": "54cecde4-3d0d-4b74-a810-b0cec9ed379e",
+      "walkable": null
+    },
+    {
+      "id": 7,
+      "name": "smooth concrete surface with subtle aggregate grain, soft ambient highlights, and gentle surface shadows",
+      "color": "#9ca3af",
+      "baseTileId": "b940d350-370a-4eac-9f1d-b42d163939e3",
+      "walkable": null
+    },
+    {
+      "id": 3,
+      "name": "dark grey soil with moderate earthy texture and gentle soft highlights and shadows",
+      "color": "#9ca3af",
+      "baseTileId": "d320787f-71e8-48ed-9636-16b9d73d6812",
+      "walkable": null
+    },
+    {
+      "id": 6,
+      "name": "rounded dense foliage masses with soft leafy texture and gentle rounded highlights and shadows",
+      "color": "#9ca3af",
+      "baseTileId": "1ebdfe79-cb4e-46de-9de0-427e99a87210",
+      "walkable": null
+    },
+    {
+      "id": 1,
+      "name": "weathered gray stone road with moderate surface texture, small cracks, and gentle soft highlights and shadows",
+      "color": "#9ca3af",
+      "baseTileId": "5a0c48de-49f4-49b6-9b24-3488faadbfe3",
+      "walkable": null
+    },
+    {
+      "id": 14,
+      "name": "compacted dark grey soil with embedded rocky fragments showing moderate surface texture under soft ambient light",
+      "color": "#6b7280",
+      "baseTileId": "26254c60-1997-4ce8-b92d-1a5b1885408d",
+      "walkable": null
+    },
+    {
+      "id": 13,
+      "name": "brownish orange packed soil with moderate granular texture and gentle soft highlights and shadows",
+      "color": "#9ca3af",
+      "baseTileId": "516ecb18-ff71-4b55-997c-fc54313afcd0",
+      "walkable": null
+    }
+  ],
+  "tilesets": [
+    {
+      "id": "45e9655d-7787-41e9-8ccf-4c460a44ea0b",
+      "filename": "lush grassy field exhibiting varied green blades and moderate surface texture with gentle s-c1395a1f.png",
+      "lowerTerrain": "lush grassy field exhibiting varied green blades and moderate surface texture with gentle soft highlights and shadows",
+      "upperTerrain": "packed winter snow with moderate granular texture and gentle soft highlights and shadows",
+      "lowerTerrainId": 2,
+      "upperTerrainId": 5,
+      "transitionSize": 0.25,
+      "transitionDescription": "crumbling muddy dirt ledge with embedded pebbles and damp patches showing soft relief and shadows",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    },
+    {
+      "id": "2b0d45ab-6bad-4268-8f89-8bc4106350ea",
+      "filename": "lush grassy field exhibiting varied green blades and moderate surface texture with gentle s-019143d0.png",
+      "lowerTerrain": "lush grassy field exhibiting varied green blades and moderate surface texture with gentle soft highlights and shadows",
+      "upperTerrain": "heavily fractured dark grey soil with dense micro-aggregates, deep damp crevices, and soft natural highlights and shadows",
+      "lowerTerrainId": 2,
+      "upperTerrainId": 15,
+      "transitionSize": 0.25,
+      "transitionDescription": "thin crumbling muddy dirt lip with scattered embedded pebbles and damp patches, featuring gentle soft highlights and shadows",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    },
+    {
+      "id": "58008878-949a-4a03-8274-06671c7645b7",
+      "filename": "weathered gray concrete surface featuring moderate aggregate grain, fine hairline cracks, a-2c8ba856.png",
+      "lowerTerrain": "weathered gray concrete surface featuring moderate aggregate grain, fine hairline cracks, and soft surface gradients",
+      "upperTerrain": "heavily fractured dark grey soil with dense micro-aggregates, deep damp crevices, and soft natural highlights and shadows",
+      "lowerTerrainId": 11,
+      "upperTerrainId": 15,
+      "transitionSize": 0.25,
+      "transitionDescription": "narrow vertical concrete retaining lip showing moderate aggregate grain, fine hairline fractures, and soft ambient surface gradients",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    },
+    {
+      "id": "4601877c-953b-4808-b081-ce1fc289cdc0",
+      "filename": "lush grassy field exhibiting varied green blades and moderate surface texture with gentle s-cfce96f1.png",
+      "lowerTerrain": "lush grassy field exhibiting varied green blades and moderate surface texture with gentle soft highlights and shadows",
+      "upperTerrain": "dark blue asphalt road with moderate aggregate grain, soft ambient highlights, and gentle surface shadows",
+      "lowerTerrainId": 2,
+      "upperTerrainId": 4,
+      "transitionSize": 0.25,
+      "transitionDescription": "narrow crumbling mud embankment with exposed pebbles and damp patches, featuring soft gentle highlights and shadows",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    },
+    {
+      "id": "d2235199-4754-4280-9bd5-fd00935d6007",
+      "filename": "weathered gray concrete surface featuring moderate aggregate grain, fine hairline cracks, a-9b5da960.png",
+      "lowerTerrain": "weathered gray concrete surface featuring moderate aggregate grain, fine hairline cracks, and soft surface gradients",
+      "upperTerrain": "lush grassy field exhibiting varied green blades and moderate surface texture with gentle soft highlights and shadows",
+      "lowerTerrainId": 11,
+      "upperTerrainId": 2,
+      "transitionSize": 0.2,
+      "transitionDescription": "narrow concrete curb edge displaying moderate aggregate texture with gentle soft highlights and shadows",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    },
+    {
+      "id": "6c557204-d8ee-4c1e-9896-a635ad352b6e",
+      "filename": "lush grassy field exhibiting varied green blades and moderate surface texture with gentle s-f37e7d14.png",
+      "lowerTerrain": "lush grassy field exhibiting varied green blades and moderate surface texture with gentle soft highlights and shadows",
+      "upperTerrain": "rounded dense foliage masses with soft leafy texture and gentle rounded highlights and shadows",
+      "lowerTerrainId": 2,
+      "upperTerrainId": 6,
+      "transitionSize": 0,
+      "transitionDescription": "",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    },
+    {
+      "id": "4e857414-4a86-46e8-a619-b1cf336fda40",
+      "filename": "lush grassy field exhibiting varied green blades and moderate surface texture with gentle s-a641f71b.png",
+      "lowerTerrain": "lush grassy field exhibiting varied green blades and moderate surface texture with gentle soft highlights and shadows",
+      "upperTerrain": "dark grey soil with moderate earthy texture and gentle soft highlights and shadows",
+      "lowerTerrainId": 2,
+      "upperTerrainId": 3,
+      "transitionSize": 0.25,
+      "transitionDescription": "thin crumbling muddy dirt lip with embedded pebbles and damp patches, featuring soft highlights and shadows",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    },
+    {
+      "id": "094e0b58-c4d3-46e6-9bfd-0bdab7a19e3b",
+      "filename": "dark blue asphalt road with moderate aggregate grain, soft ambient highlights, and gentle s-b6be06cd.png",
+      "lowerTerrain": "dark blue asphalt road with moderate aggregate grain, soft ambient highlights, and gentle surface shadows",
+      "upperTerrain": "weathered gray concrete surface featuring moderate aggregate grain, fine hairline cracks, and soft surface gradients",
+      "lowerTerrainId": 4,
+      "upperTerrainId": 11,
+      "transitionSize": 0.35,
+      "transitionDescription": "vertical concrete sidewalk edge displaying moderate surface texture, gentle tonal weathering, and soft ambient shadows",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    },
+    {
+      "id": "065bd0cf-9ad6-4b04-b41c-e1657c3fa37a",
+      "filename": "dark blue asphalt road with moderate aggregate grain, soft ambient highlights, and gentle s-fcd89114.png",
+      "lowerTerrain": "dark blue asphalt road with moderate aggregate grain, soft ambient highlights, and gentle surface shadows",
+      "upperTerrain": "smooth concrete surface with subtle aggregate grain, soft ambient highlights, and gentle surface shadows",
+      "lowerTerrainId": 4,
+      "upperTerrainId": 7,
+      "transitionSize": 0.4,
+      "transitionDescription": "vertical concrete curb face showing subtle aggregate texture, soft highlights, and gentle shadows",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    },
+    {
+      "id": "c12652ac-2290-4cef-88a5-901f1f40d2ce",
+      "filename": "textured beach sand with gentle surface ripples and moderate tonal variation featuring soft-f8dff36e.png",
+      "lowerTerrain": "textured beach sand with gentle surface ripples and moderate tonal variation featuring soft highlights and shadows",
+      "upperTerrain": "shimmering wavy water surface with gentle ripples and deep blue-green reflections featuring soft highlights and shadows",
+      "lowerTerrainId": 8,
+      "upperTerrainId": 9,
+      "transitionSize": 0.25,
+      "transitionDescription": "wet sand edge along the waterline with subtle saturation shifts and gentle damp ripples showing soft highlights and shadows",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    },
+    {
+      "id": "7ed73144-e598-48a9-ae25-a5982a38abde",
+      "filename": "lush grassy field exhibiting varied green blades and moderate surface texture with gentle s-8414f3f0.png",
+      "lowerTerrain": "lush grassy field exhibiting varied green blades and moderate surface texture with gentle soft highlights and shadows",
+      "upperTerrain": "textured beach sand with gentle surface ripples and moderate tonal variation featuring soft highlights and shadows",
+      "lowerTerrainId": 2,
+      "upperTerrainId": 8,
+      "transitionSize": 0.25,
+      "transitionDescription": "crumbling muddy dirt wall with moderate surface texture, embedded small pebbles, and damp patches showing soft highlights and shadows",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    },
+    {
+      "id": "3b69655f-0ed8-40fa-939f-f9a51c139523",
+      "filename": "weathered gray concrete surface featuring moderate aggregate grain, fine hairline cracks, a-825a51de.png",
+      "lowerTerrain": "weathered gray concrete surface featuring moderate aggregate grain, fine hairline cracks, and soft surface gradients",
+      "upperTerrain": "packed winter snow with moderate granular texture and gentle soft highlights and shadows",
+      "lowerTerrainId": 11,
+      "upperTerrainId": 5,
+      "transitionSize": 0.07,
+      "transitionDescription": "slushy melting snow with damp granular texture, soft melting edges, and gentle wet highlights and shadows",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    },
+    {
+      "id": "927a3587-c317-4e68-a6c2-753258ed2097",
+      "filename": "lush grassy field exhibiting varied green blades and moderate surface texture with gentle s-059cbe00.png",
+      "lowerTerrain": "lush grassy field exhibiting varied green blades and moderate surface texture with gentle soft highlights and shadows",
+      "upperTerrain": "brownish orange packed soil with moderate granular texture and gentle soft highlights and shadows",
+      "lowerTerrainId": 2,
+      "upperTerrainId": 12,
+      "transitionSize": 0.25,
+      "transitionDescription": "thin vertical dirt wall showing crumbly mud and embedded pebbles with soft natural highlights and shadows",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    },
+    {
+      "id": "c2bc0656-1966-44b3-8607-47d0bd4008d1",
+      "filename": "lush grassy field exhibiting varied green blades and moderate surface texture with gentle s-e4d55971.png",
+      "lowerTerrain": "lush grassy field exhibiting varied green blades and moderate surface texture with gentle soft highlights and shadows",
+      "upperTerrain": "shimmering wavy water surface with gentle ripples and deep blue-green reflections featuring soft highlights and shadows",
+      "lowerTerrainId": 2,
+      "upperTerrainId": 9,
+      "transitionSize": 0.25,
+      "transitionDescription": "narrow crumbling muddy earth cliff edge with embedded gravel fragments and damp vertical strata featuring soft highlights and shadows",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    },
+    {
+      "id": "7a3fb98f-adea-46cf-8806-5b3dab957f30",
+      "filename": "weathered gray stone road with moderate surface texture, small cracks, and gentle soft high-56585ad0.png",
+      "lowerTerrain": "weathered gray stone road with moderate surface texture, small cracks, and gentle soft highlights and shadows",
+      "upperTerrain": "lush grassy field exhibiting varied green blades and moderate surface texture with gentle soft highlights and shadows",
+      "lowerTerrainId": 1,
+      "upperTerrainId": 2,
+      "transitionSize": 0,
+      "transitionDescription": "",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    }
+  ],
+  "overlays": [],
+  "background": null,
+  "mapId": "fdf609f5-6bae-4559-bc27-847d9e013be7"
+}

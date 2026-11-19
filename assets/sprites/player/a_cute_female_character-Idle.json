@@ -1,0 +1,77 @@
+{
+  "character": {
+    "id": "84da7088-7a43-496d-801c-938b0f89a0b0",
+    "name": "Idle",
+    "prompt": "a cute female character with black hair wearing a giant strawberry as a costume (strawberry is slightly red, entire outfit is strawberry red with many white dots)",
+    "size": {
+      "width": 24,
+      "height": 24
+    },
+    "directions": 8,
+    "view": "low top-down"
+  },
+  "spritesheet": {
+    "path": "a_cute_female_character-Idle.png",
+    "cell_size": {
+      "width": 48,
+      "height": 48
+    },
+    "sheet_size": {
+      "width": 384,
+      "height": 240
+    },
+    "columns": 8,
+    "pivot": "cell-center",
+    "rows": [
+      {
+        "row": 0,
+        "type": "rotations",
+        "frame_count": 8,
+        "directions": [
+          "south",
+          "south-east",
+          "east",
+          "north-east",
+          "north",
+          "north-west",
+          "west",
+          "south-west"
+        ]
+      },
+      {
+        "row": 1,
+        "type": "animation",
+        "frame_count": 6,
+        "animation": "Walk",
+        "animation_group_id": "05e69b81-f71c-403d-9f11-271413be94cc",
+        "direction": "south"
+      },
+      {
+        "row": 2,
+        "type": "animation",
+        "frame_count": 6,
+        "animation": "Walk",
+        "animation_group_id": "05e69b81-f71c-403d-9f11-271413be94cc",
+        "direction": "east"
+      },
+      {
+        "row": 3,
+        "type": "animation",
+        "frame_count": 6,
+        "animation": "Walk",
+        "animation_group_id": "05e69b81-f71c-403d-9f11-271413be94cc",
+        "direction": "north"
+      },
+      {
+        "row": 4,
+        "type": "animation",
+        "frame_count": 6,
+        "animation": "Walk",
+        "animation_group_id": "05e69b81-f71c-403d-9f11-271413be94cc",
+        "direction": "west"
+      }
+    ]
+  },
+  "export_version": "1.0",
+  "export_date": "2026-10-08T20:40:51.727141+00:00"
+}

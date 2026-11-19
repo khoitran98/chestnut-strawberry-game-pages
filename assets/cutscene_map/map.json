@@ -1,0 +1,224 @@
+{
+  "version": "1.0.0",
+  "name": "bd house",
+  "exportDate": "2026-10-29T16:35:48.570752Z",
+  "engine": "pixellab-map-editor",
+  "mapConfig": {
+    "tileSize": 16,
+    "dimensions": {
+      "width": 18,
+      "height": 16,
+      "pixelWidth": 288,
+      "pixelHeight": 256
+    },
+    "boundingBox": {
+      "maxX": 39,
+      "maxY": 28,
+      "minX": 22,
+      "minY": 13
+    }
+  },
+  "terrains": [
+    {
+      "id": 10,
+      "name": "hard brown wooden floor planks with horizontal straight grain lines, soft gentle highlights and shadows",
+      "color": "#9ca3af",
+      "baseTileId": "52474864-4a84-49ef-a9ed-e8a65798dd2f",
+      "walkable": null
+    },
+    {
+      "id": 2,
+      "name": "smooth beige color wall with gentle surface texture and subtle tonal shading",
+      "color": "#9ca3af",
+      "baseTileId": "f5a1a359-2b8c-49c8-9618-0ba4e9a04636",
+      "walkable": null
+    },
+    {
+      "id": 11,
+      "name": "hard brown wooden floor planks featuring horizontal straight grain lines, moderate surface texture, and soft gentle highlights and shadows",
+      "color": "#9ca3af",
+      "baseTileId": "d2f9584b-ce0a-4c06-81af-bcf5a74ae61f",
+      "walkable": null
+    },
+    {
+      "id": 8,
+      "name": "dark hard brown wooden floor planks featuring straight horizontal grain lines, moderate surface texture, and soft gentle highlights and shadows",
+      "color": "#9ca3af",
+      "baseTileId": "4c69fac1-89da-4490-a26a-0c1c11e9d5cd",
+      "walkable": null
+    },
+    {
+      "id": 9,
+      "name": "dark brown wooden floor with straight horizontal grain, moderate surface texture, and soft highlights and shadows",
+      "color": "#9ca3af",
+      "baseTileId": "47c5268d-38b2-44ac-824c-727f5da9a91f",
+      "walkable": null
+    },
+    {
+      "id": 4,
+      "name": "smooth light cream wall with gentle surface texture and soft medium depth shading",
+      "color": "#9ca3af",
+      "baseTileId": "be893c98-1e7b-4237-b7d6-80a4999defcd",
+      "walkable": null
+    },
+    {
+      "id": 6,
+      "name": "hard brown wooden floor with straight grain lines, featuring soft highlights and shadows, moderate depth",
+      "color": "#9ca3af",
+      "baseTileId": "da411751-488c-4bac-8056-a9261ad14b3e",
+      "walkable": null
+    },
+    {
+      "id": 7,
+      "name": "hard brown wooden floor with straight grain lines showing moderate surface texture and soft tonal shading",
+      "color": "#9ca3af",
+      "baseTileId": "b003c0b1-9941-42aa-b81e-d423c96128c2",
+      "walkable": null
+    },
+    {
+      "id": 3,
+      "name": "hard light brown wooden floor with straight grain lines and soft tonal variation across worn planks",
+      "color": "#9ca3af",
+      "baseTileId": "15044301-8b87-49ef-a90d-3777eed03e51",
+      "walkable": null
+    },
+    {
+      "id": 5,
+      "name": "hard brown wooden floor planks with horizontal straight grain lines, soft gentle highlights and shadows, and moderate surface texture",
+      "color": "#9ca3af",
+      "baseTileId": "d415cf2d-4757-4cf9-8edd-53d220494403",
+      "walkable": null
+    }
+  ],
+  "tilesets": [
+    {
+      "id": "adc9401f-f4ca-49cf-b830-2a4d24427730",
+      "filename": "smooth beige color wall with gentle surface texture and subtle tonal shading-dark brown woo-a46706ab.png",
+      "lowerTerrain": "smooth beige color wall with gentle surface texture and subtle tonal shading",
+      "upperTerrain": "dark brown wooden floor with straight horizontal grain, moderate surface texture, and soft highlights and shadows",
+      "lowerTerrainId": 2,
+      "upperTerrainId": 9,
+      "transitionSize": 0,
+      "transitionDescription": "",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    },
+    {
+      "id": "e551190c-1f38-4a41-b41d-d61d4dab136e",
+      "filename": "hard brown wooden floor planks featuring horizontal straight grain lines, moderate surface-9312e774.png",
+      "lowerTerrain": "hard brown wooden floor planks featuring horizontal straight grain lines, moderate surface texture, and soft gentle highlights and shadows",
+      "upperTerrain": "smooth beige color wall with gentle surface texture and subtle tonal shading",
+      "lowerTerrainId": 11,
+      "upperTerrainId": 2,
+      "transitionSize": 0,
+      "transitionDescription": "",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    },
+    {
+      "id": "b5364263-1990-495b-85c9-fcd28fce266c",
+      "filename": "dark hard brown wooden floor planks featuring straight horizontal grain lines, moderate sur-42e647ad.png",
+      "lowerTerrain": "dark hard brown wooden floor planks featuring straight horizontal grain lines, moderate surface texture, and soft gentle highlights and shadows",
+      "upperTerrain": "smooth beige color wall with gentle surface texture and subtle tonal shading",
+      "lowerTerrainId": 8,
+      "upperTerrainId": 2,
+      "transitionSize": 0,
+      "transitionDescription": "",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    },
+    {
+      "id": "20eb1b39-606c-4d98-884d-60c2264921d9",
+      "filename": "smooth beige color wall with gentle surface texture and subtle tonal shading-smooth light c-629abca1.png",
+      "lowerTerrain": "smooth beige color wall with gentle surface texture and subtle tonal shading",
+      "upperTerrain": "smooth light cream wall with gentle surface texture and soft medium depth shading",
+      "lowerTerrainId": 2,
+      "upperTerrainId": 4,
+      "transitionSize": 0,
+      "transitionDescription": "",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    },
+    {
+      "id": "e661ef6b-a4e3-428e-b261-331191903a8b",
+      "filename": "hard brown wooden floor with straight grain lines, featuring soft highlights and shadows, m-f3241339.png",
+      "lowerTerrain": "hard brown wooden floor with straight grain lines, featuring soft highlights and shadows, moderate depth",
+      "upperTerrain": "smooth beige color wall with gentle surface texture and subtle tonal shading",
+      "lowerTerrainId": 6,
+      "upperTerrainId": 2,
+      "transitionSize": 0.15,
+      "transitionDescription": "thin wooden ledge cut edge with gentle surface texture and soft tonal depth",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    },
+    {
+      "id": "29112ca4-a7d1-410a-b109-cfdf163f8d4e",
+      "filename": "hard brown wooden floor with straight grain lines showing moderate surface texture and soft-011315d8.png",
+      "lowerTerrain": "hard brown wooden floor with straight grain lines showing moderate surface texture and soft tonal shading",
+      "upperTerrain": "smooth beige color wall with gentle surface texture and subtle tonal shading",
+      "lowerTerrainId": 7,
+      "upperTerrainId": 2,
+      "transitionSize": 0.15,
+      "transitionDescription": "narrow wooden rim with a shallow cut edge matching the grain pattern and gentle depth",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    },
+    {
+      "id": "c6874888-b990-415b-bbec-2509adac5b98",
+      "filename": "hard light brown wooden floor with straight grain lines and soft tonal variation across wor-2f2dfc54.png",
+      "lowerTerrain": "hard light brown wooden floor with straight grain lines and soft tonal variation across worn planks",
+      "upperTerrain": "smooth beige color wall with gentle surface texture and subtle tonal shading",
+      "lowerTerrainId": 3,
+      "upperTerrainId": 2,
+      "transitionSize": 0.15,
+      "transitionDescription": "vertical damp earth cliff face featuring embedded small pebbles, moderate surface texture, gentle tonal variation, soft highlights, and natural shadow depths",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    },
+    {
+      "id": "a80c1941-52c3-433d-8186-6b315b0a06c6",
+      "filename": "hard light brown wooden floor with straight grain lines and soft tonal variation across wor-2f2dfc54-2.png",
+      "lowerTerrain": "hard light brown wooden floor with straight grain lines and soft tonal variation across worn planks",
+      "upperTerrain": "smooth beige color wall with gentle surface texture and subtle tonal shading",
+      "lowerTerrainId": 3,
+      "upperTerrainId": 2,
+      "transitionSize": 0.17,
+      "transitionDescription": "thin low wood ledge showing end grain and soft ambient shading along the rim",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    },
+    {
+      "id": "cb07e72f-130b-4ee6-897a-ce99fa3c51d2",
+      "filename": "hard brown wooden floor planks with horizontal straight grain lines, soft gentle highlights-74936691.png",
+      "lowerTerrain": "hard brown wooden floor planks with horizontal straight grain lines, soft gentle highlights and shadows",
+      "upperTerrain": "smooth beige color wall with gentle surface texture and subtle tonal shading",
+      "lowerTerrainId": 10,
+      "upperTerrainId": 2,
+      "transitionSize": 0,
+      "transitionDescription": "",
+      "tileSize": 16,
+      "gridLayout": "4x4",
+      "wangIndexMapping": "standard",
+      "view": "high top-down"
+    }
+  ],
+  "overlays": [],
+  "background": null,
+  "mapId": "5c6a6cd3-43fb-4f3e-9371-8841557da413"
+}

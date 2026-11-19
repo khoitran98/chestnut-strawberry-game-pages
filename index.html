@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!--
+      viewport-fit=cover + user-scalable=no: the game owns the whole screen.
+      No pinch-zoom, no double-tap zoom, no browser chrome overlap on notched phones.
+    -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#000000" />
+    <title>Chestnut Strawberry Game</title>
+    <script type="module" crossorigin src="./build/index-kpHiFYd3.js"></script>
+    <link rel="stylesheet" crossorigin href="./build/index-VQCaD588.css">
+  </head>
+  <body>
+    <!--
+      #frame  = the whole screen; paints the letterbox bars and centres the stage.
+      #stage      = EXACTLY 320x180 CSS px, scaled as one unit by viewport.js.
+                    Everything in the game lives inside it, so nothing ever reflows.
+      #game       = the world canvas (320x180 internal resolution).
+      #ui         = DOM overlay for HUD / joystick, laid out in the same 320x180 space -
+                    shrunk inward on phone when core/viewport.js's PHONE_ZOOM crops
+                    something, so this layer's own edge-anchored content (buttons,
+                    banners) stays inside the visible area.
+      #modal-root = ui/ui.js's own modals mount HERE, not into #ui - a modal's
+                    backdrop needs to dim the WHOLE visible screen even when #ui
+                    itself is shrunk, which #ui's own overflow: hidden would clip
+                    if the backdrop tried to do that from inside #ui (reported:
+                    "backdrop only covers part of the screen").
+    -->
+    <div id="frame">
+      <div id="stage">
+        <canvas id="game" width="320" height="180"></canvas>
+        <div id="ui"></div>
+        <div id="modal-root"></div>
+      </div>
+    </div>
+  </body>
+</html>

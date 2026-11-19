@@ -1,0 +1,93 @@
+{
+  "character": {
+    "id": "fdf3a5b1-cde3-4d0e-88f8-3368fbe9e22a",
+    "name": "Idle",
+    "prompt": "a cute, chubby male character wearing a giant chestnut costume (resembling a chestnut)",
+    "size": {
+      "width": 32,
+      "height": 32
+    },
+    "directions": 8,
+    "view": "low top-down"
+  },
+  "spritesheet": {
+    "path": "a_cute_chubby_male_chara-Idle.png",
+    "cell_size": {
+      "width": 32,
+      "height": 32
+    },
+    "sheet_size": {
+      "width": 544,
+      "height": 224
+    },
+    "columns": 17,
+    "pivot": "cell-center",
+    "rows": [
+      {
+        "row": 0,
+        "type": "rotations",
+        "frame_count": 8,
+        "directions": [
+          "south",
+          "south-east",
+          "east",
+          "north-east",
+          "north",
+          "north-west",
+          "west",
+          "south-west"
+        ]
+      },
+      {
+        "row": 1,
+        "type": "animation",
+        "frame_count": 17,
+        "animation": "kneeling down (1 leg at front, 1 leg at the back), raising 1 hand at the front, holding a diamond ring",
+        "animation_group_id": "5a19ad05-325a-4d19-8adb-c3235695355d",
+        "direction": "east"
+      },
+      {
+        "row": 2,
+        "type": "animation",
+        "frame_count": 17,
+        "animation": "kneeling down (1 leg at front, 1 leg at the back), raising 1 hand at the front, holding a diamond ring",
+        "animation_group_id": "5a19ad05-325a-4d19-8adb-c3235695355d",
+        "direction": "west"
+      },
+      {
+        "row": 3,
+        "type": "animation",
+        "frame_count": 6,
+        "animation": "Walking",
+        "animation_group_id": "978bbca7-7673-4f02-b1a6-2d5980a8822c",
+        "direction": "south"
+      },
+      {
+        "row": 4,
+        "type": "animation",
+        "frame_count": 6,
+        "animation": "Walking",
+        "animation_group_id": "978bbca7-7673-4f02-b1a6-2d5980a8822c",
+        "direction": "east"
+      },
+      {
+        "row": 5,
+        "type": "animation",
+        "frame_count": 6,
+        "animation": "Walking",
+        "animation_group_id": "978bbca7-7673-4f02-b1a6-2d5980a8822c",
+        "direction": "north"
+      },
+      {
+        "row": 6,
+        "type": "animation",
+        "frame_count": 6,
+        "animation": "Walking",
+        "animation_group_id": "978bbca7-7673-4f02-b1a6-2d5980a8822c",
+        "direction": "west"
+      }
+    ]
+  },
+  "export_version": "1.0",
+  "export_date": "2026-10-29T18:47:04.899319+00:00"
+}

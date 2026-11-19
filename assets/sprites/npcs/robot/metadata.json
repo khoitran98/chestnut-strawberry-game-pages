@@ -1,0 +1,50 @@
+{
+  "group_id": "be11103d-4134-44eb-912b-0e39e0b3599d",
+  "states": [
+    {
+      "character": {
+        "id": "5259f3f9-1881-4a17-9065-bbded06c6977",
+        "name": "Idle",
+        "prompt": "an cute amber color smiling friendly robot",
+        "size": {
+          "width": 48,
+          "height": 48
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "low top-down",
+        "created_at": "2026-10-14T14:35:39.786198+00:00"
+      },
+      "folder": "Idle",
+      "frames": {
+        "rotations": {
+          "south": "Idle/rotations/south.png",
+          "south-east": "Idle/rotations/south-east.png",
+          "east": "Idle/rotations/east.png",
+          "north-east": "Idle/rotations/north-east.png",
+          "north": "Idle/rotations/north.png",
+          "north-west": "Idle/rotations/north-west.png",
+          "west": "Idle/rotations/west.png",
+          "south-west": "Idle/rotations/south-west.png"
+        },
+        "animations": {
+          "head_spinning._every_other_body_parts_stay_still": {
+            "south": [
+              "Idle/animations/head_spinning._every_other_body_parts_stay_still/south/frame_000.png",
+              "Idle/animations/head_spinning._every_other_body_parts_stay_still/south/frame_001.png",
+              "Idle/animations/head_spinning._every_other_body_parts_stay_still/south/frame_002.png",
+              "Idle/animations/head_spinning._every_other_body_parts_stay_still/south/frame_003.png",
+              "Idle/animations/head_spinning._every_other_body_parts_stay_still/south/frame_004.png",
+              "Idle/animations/head_spinning._every_other_body_parts_stay_still/south/frame_005.png",
+              "Idle/animations/head_spinning._every_other_body_parts_stay_still/south/frame_006.png",
+              "Idle/animations/head_spinning._every_other_body_parts_stay_still/south/frame_007.png",
+              "Idle/animations/head_spinning._every_other_body_parts_stay_still/south/frame_008.png"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "export_version": "3.1",
+  "export_date": "2026-10-22T03:27:17.096907"
+}

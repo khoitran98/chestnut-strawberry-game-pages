@@ -1,0 +1,106 @@
+{
+  "version": "1.0.0",
+  "totalObjects": 4,
+  "objects": [
+    {
+      "id": "2ea3a1fd-9b84-4b62-86b1-3ced4f0f05eb",
+      "name": "Idle",
+      "filename": "2ea3a1fd-9b84-4b62-86b1-3ced4f0f05eb.png",
+      "boundingBox": {
+        "x": 433.0000000000001,
+        "y": 265.3333333333334,
+        "width": 128,
+        "height": 128
+      },
+      "groundBounds": {
+        "x": 474.0000000000001,
+        "y": 344.3333333333334,
+        "width": 46.0,
+        "height": 32.0
+      },
+      "layer": 5,
+      "visible": true,
+      "locked": false,
+      "description": "Character: Idle (south)",
+      "metadata": {
+        "generatedAt": "2026-10-26T19:16:17.713Z"
+      },
+      "isProgress": false
+    },
+    {
+      "id": "62801818-a977-4366-a24a-4d5f0e7fd189",
+      "name": "Idle",
+      "filename": "62801818-a977-4366-a24a-4d5f0e7fd189.png",
+      "boundingBox": {
+        "x": 550,
+        "y": 324,
+        "width": 60,
+        "height": 60
+      },
+      "groundBounds": {
+        "x": 552.0,
+        "y": 360.0,
+        "width": 56.0,
+        "height": 15.0
+      },
+      "layer": 2,
+      "visible": true,
+      "locked": false,
+      "description": "Character: Idle (south)",
+      "metadata": {
+        "generatedAt": "2026-10-29T15:14:52.960Z"
+      },
+      "isProgress": false
+    },
+    {
+      "id": "b8114dfa-126c-45a7-814b-24b0d019a517",
+      "name": "Idle",
+      "filename": "b8114dfa-126c-45a7-814b-24b0d019a517.png",
+      "boundingBox": {
+        "x": 369.33333333333326,
+        "y": 305.3333333333333,
+        "width": 80,
+        "height": 80
+      },
+      "groundBounds": {
+        "x": 384.33333333333326,
+        "y": 358.3333333333333,
+        "width": 50.0,
+        "height": 20.0
+      },
+      "layer": 3,
+      "visible": true,
+      "locked": false,
+      "description": "Character: Idle (south)",
+      "metadata": {
+        "generatedAt": "2026-10-29T15:31:32.876Z"
+      },
+      "isProgress": false
+    },
+    {
+      "id": "2b397545-6944-4e2b-8a7a-481ffae542c1",
+      "name": "Idle",
+      "filename": "2b397545-6944-4e2b-8a7a-481ffae542c1.png",
+      "boundingBox": {
+        "x": 441.3333333333333,
+        "y": 370,
+        "width": 112,
+        "height": 112
+      },
+      "groundBounds": {
+        "x": 443.3333333333333,
+        "y": 427.0,
+        "width": 107.0,
+        "height": 28.0
+      },
+      "layer": 4,
+      "visible": true,
+      "locked": false,
+      "description": "Character: Idle (east)",
+      "metadata": {
+        "generatedAt": "2026-10-29T16:29:09.873Z"
+      },
+      "isProgress": false
+    }
+  ]
+}

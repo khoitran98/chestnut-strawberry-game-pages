@@ -1,0 +1,48 @@
+{
+  "group_id": "a465a3ca-4ca0-4529-a0f3-b7ca953618b8",
+  "states": [
+    {
+      "character": {
+        "id": "ad1ec221-b19a-4b93-b2ee-718c0ce946be",
+        "name": "Idle",
+        "prompt": "a smiling purple teletubby",
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "low top-down",
+        "created_at": "2026-10-28T14:23:54.920244+00:00"
+      },
+      "folder": "Idle",
+      "frames": {
+        "rotations": {
+          "south": "Idle/rotations/south.png",
+          "south-east": "Idle/rotations/south-east.png",
+          "east": "Idle/rotations/east.png",
+          "north-east": "Idle/rotations/north-east.png",
+          "north": "Idle/rotations/north.png",
+          "north-west": "Idle/rotations/north-west.png",
+          "west": "Idle/rotations/west.png",
+          "south-west": "Idle/rotations/south-west.png"
+        },
+        "animations": {
+          "waving_left_arm_the_every_other_body_parts_stay_st": {
+            "south": [
+              "Idle/animations/waving_left_arm_the_every_other_body_parts_stay_st/south/frame_000.png",
+              "Idle/animations/waving_left_arm_the_every_other_body_parts_stay_st/south/frame_001.png",
+              "Idle/animations/waving_left_arm_the_every_other_body_parts_stay_st/south/frame_002.png",
+              "Idle/animations/waving_left_arm_the_every_other_body_parts_stay_st/south/frame_003.png",
+              "Idle/animations/waving_left_arm_the_every_other_body_parts_stay_st/south/frame_004.png",
+              "Idle/animations/waving_left_arm_the_every_other_body_parts_stay_st/south/frame_005.png",
+              "Idle/animations/waving_left_arm_the_every_other_body_parts_stay_st/south/frame_006.png"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "export_version": "3.1",
+  "export_date": "2026-10-28T16:24:40.554475"
+}
