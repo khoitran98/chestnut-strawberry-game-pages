@@ -5,7 +5,6 @@
       "character": {
         "id": "bbe64abd-6f83-46b8-bdd4-7c14da01215a",
         "name": "Idle",
-        "prompt": "use the reference picture",
         "size": {
           "width": 48,
           "height": 48

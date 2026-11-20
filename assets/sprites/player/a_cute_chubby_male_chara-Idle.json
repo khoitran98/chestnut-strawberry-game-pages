@@ -2,7 +2,6 @@
   "character": {
     "id": "fdf3a5b1-cde3-4d0e-88f8-3368fbe9e22a",
     "name": "Idle",
-    "prompt": "a cute, chubby male character wearing a giant chestnut costume (resembling a chestnut)",
     "size": {
       "width": 32,
       "height": 32
@@ -42,7 +41,6 @@
         "row": 1,
         "type": "animation",
         "frame_count": 17,
-        "animation": "kneeling down (1 leg at front, 1 leg at the back), raising 1 hand at the front, holding a diamond ring",
         "animation_group_id": "5a19ad05-325a-4d19-8adb-c3235695355d",
         "direction": "east"
       },
@@ -50,7 +48,6 @@
         "row": 2,
         "type": "animation",
         "frame_count": 17,
-        "animation": "kneeling down (1 leg at front, 1 leg at the back), raising 1 hand at the front, holding a diamond ring",
         "animation_group_id": "5a19ad05-325a-4d19-8adb-c3235695355d",
         "direction": "west"
       },
